@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Bootstrap/main.css">
+    <link href="//db.onlinewebfonts.com/c/12875994f83a259a12e3be6faac874bd?family=BBC+Reith+Sans" rel="stylesheet"
+        type="text/css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!--Header-->
+        <div class="row header">
+            <div class="col col-sm-1"></div>
+
+            <div class="col col-sm-10 ">
+                <h2 class="header">
+                    <a href="https://www.bbc.com/turkce" target="_blank">
+                        <img style="position: relative; " class="text-center " src="img/bbc-turkce.png" width="15%"
+                            alt="">
+                    </a>
+                </h2>
+            </div>
+            <div class="col col-sm-1"></div>
+        </div>
+        <!--Header Bitiş-->
+
+        <!--Kategori Barı-->
+        <div class="row">
+            <div class="col col-sm-1"></div>
+            <div class="col col-sm-10" style="font-family: ReithSans, Helvetica, Arial, sans-serif;">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a onclick="categoryActiveLinkRequest('Türkiye')" class="nav-link" href="#">Türkiye</a>
+                                <a onclick="categoryActiveLinkRequest('Dünya')" class="nav-link" href="#">Dünya</a>
+                                <a onclick="categoryActiveLinkRequest('Ekonomi')" class="nav-link" href="#">Ekonomi</a>
+                                <a onclick="categoryActiveLinkRequest('Spor')" class="nav-link" href="#">Spor</a>
+                                <a onclick="categoryActiveLinkRequest('Eğitim')" class="nav-link" href="#">Eğitim</a>
+                                <a onclick="categoryActiveLinkRequest('Bilim')" class="nav-link" href="#">Bilim</a>
+                                <a onclick="categoryActiveLinkRequest('Kültür')" class="nav-link" href="#">Kültür</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="col col-sm-1"></div>
+        </div>
+        <!--Kategori Barı Bitiş-->
+
+        <hr>
+        <br>
+
+
+        <!--İçerik Barı-->
+        <div class="row">
+            <div class="col col-sm-1"></div>
+            <div class="col col-sm-5">
+                <!--<img id="İlkCanliHaberImg" src="content-img/website (1).jpg" width="100%" height="100%">-->
+                <div id="İlkCanliHaberImg"></div>
+            </div>
+            <div class="col col-sm-5">
+                <h3 style="color:#b80000;">Canlı</h3>
+                <h4 id="ilkCanliHaber"></h4>
+                <div id="ilkCanliHaberAciklama"></div>
+
+            </div>
+
+            <div class="col col-sm-1"></div>
+        </div>
+
+        <!--İçerik Barı Bitiş-->
+        <br>
+        <!-- card-->
+        <div class="row ">
+            <div class="col col-sm-2"></div>
+            <div id="cards" class="col col-sm-2">
+                <div id="cardies1" class="card">
+                    <!-- <img src="content-img/images.jfif" width="50px" height="150px" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p style="text-align: right;">29.12.2022</p>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col col-sm-2">
+                <div id="cardies2" class="card">
+
+                </div>
+            </div>
+            <div class="col col-sm-2">
+                <div id="cardies3" class="card">
+
+
+                </div>
+            </div>
+            <div class="col col-sm-2">
+                <div id="cardies4" class="card">
+
+
+                </div>
+            </div>
+            <div class="col col-sm-2"></div>
+        </div>
+        <!-- card Bitiş-->
+        <br> <br>
+
+        <!-- Kategori Liste-->
+        <div class="row top">
+            <div class="col col-sm-1"></div>
+            <div class="col col-sm-3">
+                <h3>Ekonomi</h3>
+                <h5>NewsTitle Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, a nostrum eaque eos
+                    voluptas quisquam.</h5>
+                <p style="text-align: left;">29.12.2022</p>
+            </div>
+            <div class="col col-sm-4">
+                <img src="content-img/indir (1).jfif" width="100%" height="100%" alt="">
+            </div>
+            <div class="col col-sm-3">
+                <div class="card">
+                    <img src="content-img/img-1.jfif" style="object-fit: fill;" width="50px" height="150px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p style="text-align: right;">29.12.2022</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col col-sm-1"></div>
+
+        </div>
+        <div class="row top">
+            <div class="col col-sm-1"></div>
+            <div class="col col-sm-3">
+                <h3>Category Name</h3>
+                <h5>NewsTitle Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, a nostrum eaque eos
+                    voluptas quisquam.</h5>
+                <p style="text-align: left;">29.12.2022</p>
+            </div>
+            <div class="col col-sm-4">
+                <img src="content-img/katList.jfif" width="100%" height="100%" alt="">
+            </div>
+            <div class="col col-sm-3">
+                <div class="card">
+                    <img src="content-img/img-1.jfif" style="object-fit: fill;" width="50px" height="150px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p style="text-align: right;">29.12.2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-1"></div>
+
+        </div>
+        <div class="row top">
+            <div class="col col-sm-1"></div>
+            <div class="col col-sm-3">
+                <h3>Category Name</h3>
+                <h5>NewsTitle Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, a nostrum eaque eos
+                    voluptas quisquam.</h5>
+                <p style="text-align: left;">29.12.2022</p>
+            </div>
+            <div class="col col-sm-4">
+                <img src="content-img/katlist3.jfif" width="100%" height="100%" alt="">
+            </div>
+            <div class="col col-sm-3">
+                <div class="card">
+                    <img src="content-img/img-1.jfif" style="object-fit: fill;" width="50px" height="150px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p style="text-align: right;">29.12.2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-1"></div>
+
+        </div>
+        <div class="row top">
+            <div class="col col-sm-1"></div>
+            <div class="col col-sm-3">
+                <h3>Category Name</h3>
+                <h5>NewsTitle Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, a nostrum eaque eos
+                    voluptas quisquam.</h5>
+                <p style="text-align: left;">29.12.2022</p>
+            </div>
+            <div class="col col-sm-4">
+                <img src="content-img/katlist4.jfif" width="100%" height="100%" alt="">
+            </div>
+            <div class="col col-sm-3">
+                <div class="card">
+                    <img src="content-img/img-1.jfif" style="object-fit: fill;" width="50px" height="150px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p style="text-align: right;">29.12.2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-1"></div>
+
+        </div>
+
+        <!-- Kategori Liste Bitiş-->
+
+        <br><br>
+
+        <!--BestRead-->
+
+        <h2 style="text-align: left;">En Çok Okunanlar</h2>
+        <div class="row">
+            <div class="col col-sm-1"></div>
+            <div class="col col-sm-5 ">
+                <p>
+                    <span class="bestReadNumber">1</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+                <p>
+                    <span class="bestReadNumber">2</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+                <p>
+                    <span class="bestReadNumber">3</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+                <p>
+                    <span class="bestReadNumber">4</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+                <p>
+                    <span class="bestReadNumber">5</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus ali as tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+            </div>
+            <div class="col col-sm-5">
+                <p>
+                    <span class="bestReadNumber">6</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+                <p>
+                    <span class="bestReadNumber">7</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+                <p>
+                    <span class="bestReadNumber">8</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+                <p>
+                    <span class="bestReadNumber">9</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+                <p>
+                    <span class="bestReadNumber">10</span>
+                    <a href="#" class="link-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        hic voluptatibus alias tempore consequuntur a saepe dolor iusto, numquam deleniti, repellendus
+                        repellat ad eum quis natus. Facilis dolores odit quaerat voluptates nulla.</a>
+                </p>
+            </div>
+            <div class="col col-sm-1"></div>
+        </div>
+
+        <!--BestRead Finish-->
+
+        <br><br>
+
+        <!--Footer-->
+        <div class="row header">
+            <div class="col col-sm-1"></div>
+
+            <div class="col col-sm-10 ">
+                <h2 class="header">
+                    <a href="https://www.bbc.com/turkce" target="_blank">
+                        <img style="position: relative; " class="text-center " src="img/bbc-turkce.png" width="15%"
+                            alt="">
+                    </a>
+                </h2>
+            </div>
+            <div class="col col-sm-1"></div>
+        </div>
+        <!--Footer Bitiş-->
+
+        <div class="row" style="background-color: #222222;">
+            <div class="col col-sm-2"></div>
+            <div class="col col-sm-8">
+                <br>
+                <a href="" class="link link-light" style="text-decoration: none;">Neden Güveniliriz</a>
+                <hr class="text-light">
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse repellendus
+                    iusto.</p>
+                <hr class="text-light">
+                <p class="text-light">© 2022 BBC. BBC, link verilen internet sitelerinin içeriğinden sorumlu değildir.
+                    Link verilen internet sitelerine yaklaşımımız.</p>
+            </div>
+            <div class="col col-sm-2"></div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
+
+<!-- <div style="font-family: ReithSans, Helvetica, Arial, sans-serif;" class="col col-sm-10">
+    <a href="#" class="link-dark">Haberler</a>
+    <a href="#" class="link-dark category">Savaş</a>
+    <a href="#" class="link-dark category">Ekonomi</a>
+    <a href="#" class="link-dark category">Yemek</a>
+    <a href="#" class="link-dark category">Ekonomi</a>
+    <a href="#" class="link-dark category">Yemek</a>
+    <a href="#" class="link-dark category">Dünya</a>
+    <a href="#" class="link-dark category">Oyun</a>
+</div> -->
